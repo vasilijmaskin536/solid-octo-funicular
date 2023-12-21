@@ -1,0 +1,10 @@
+            
+        case .changeText(let text):
+            newText.text = text
+            
+        case .changeTextColor(let color):
+            newText.textColor = color
+        return newState
+    }
+    
+}
